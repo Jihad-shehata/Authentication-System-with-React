@@ -19,7 +19,7 @@ export default function Navbar() {
         <a className='navbar-brand'>
 <div className="d-flex Goldady-barnd">
 
-<h3 className='pt-2 Goldady-'>Goldady</h3>
+<h4 className='pt-2 Goldady-'>FutureMinds AI</h4>
 
 </div>
         </a>

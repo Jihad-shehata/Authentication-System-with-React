@@ -69,6 +69,10 @@ const validationSchema=Yup.object({
       {
         navigate('/login')
         Cookies.set("data",values.username)
+        Cookies.set("emailData",values.email)
+        Cookies.set("firstNameData",values.first_name)
+        Cookies.set("lastNameData",values.last_name)
+
         
        
       }

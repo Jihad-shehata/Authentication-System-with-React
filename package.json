@@ -2,7 +2,8 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://Jihad-shehata.github.io/Authentication-System-with-React",
+  
+  
   "dependencies": {
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",

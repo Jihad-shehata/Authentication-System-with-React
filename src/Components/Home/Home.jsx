@@ -11,7 +11,8 @@ export default function Home() {
     <div className="container">
       <div className="row">
         <div className="col-md-7 mt-5">
-          <h3 className='mt-2 mb-3 font-color'>Welcome to Goldady - Your Gateway to the future of bullion gold investment {Cookies.get('data')} !</h3>
+          <h3 className='mt-2 mb-3 font-color'>Welcome to FutureMinds AI
+          - Your Gateway to  prepar you for the future of technology." {Cookies.get('data')} !</h3>
 
           <ExampleComponent/>
         </div>

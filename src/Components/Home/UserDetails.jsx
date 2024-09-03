@@ -5,9 +5,7 @@ export default function ExampleComponent  ()  {
     <TypeAnimation
   style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' ,fontWeight:'bolder', color:'#021526' ,fontSize: '16px'}}
   sequence={[
-    `We’ve taken the timeless tradition of gold investment and repackaged it into a simple, hassle-free digital experience. By cutting unnecessary transaction costs and providing fully-integrated storage and insurance services, Goldady is simplifying access to the lucrative world of gold bullion investment and revolutionizing the traditional over-the-counter bullion gold dealership scene in the Middle East.
-
-At Goldady, we're laser-focused on facilitating the secure purchase, sale, vaulting, and storage of physical bullion gold through our digital platform. 
+    `FutureMinds AI is a leading educational platform designed to equip students and professionals with the skills needed to thrive in the world of artificial intelligence. Our comprehensive courses cover a wide range of AI topics, from foundational concepts to advanced machine learning techniques. We emphasize hands-on learning through real-world projects and interactive sessions, ensuring that our students gain practical experience. With expert instructors, up-to-date curriculum, and a community-driven approach, AI Academy fosters innovation and critical thinking. We are committed to making AI education accessible and relevant, empowering individuals to drive technological advancements. Whether you're a beginner or an experienced professional, AI Academy is your gateway to mastering the future of technology. Join us to unlock your potential and make an impact in the AI revolution. 
     
     
 `, // actual line-break inside string literal also gets animated in new line, but ensure there are no leading spaces

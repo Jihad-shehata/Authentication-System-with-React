@@ -7,7 +7,7 @@ import Layout from './Components/Layout/Layout';
 import Login from './Components/Login/Login';
 import MyProjects from './Components/My Projects/MyProjectes';
 import Register from './Components/Register/Register';
-import{createBrowserRouter, createHashRouter, Navigate, RouterProvider}from'react-router-dom'
+import{createBrowserRouter,  Navigate, RouterProvider}from'react-router-dom'
 import Updates from './Components/Updates/Updates';
 import Profile from './Components/Profile/Profile';
 import {AuthContextProvider} from './Contexts/AuthContext';
@@ -18,7 +18,7 @@ import AuthProtectedRoute from './Components/ProtectedRoutes/AuthProtectedRoute'
 function App() {
 
   // * Create Routes
-const router=createHashRouter([
+const router=createBrowserRouter([
   {path:'',element:<Layout/>,children:[
     {path:'register',element:<AuthProtectedRoute><Register/></AuthProtectedRoute>},
     {path:'login',element:<AuthProtectedRoute><Login/></AuthProtectedRoute>},
